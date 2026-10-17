@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://enjoyable-lite.ables.com.my/"><img alt="Try it live" src="https://img.shields.io/badge/Try%20it-enjoyable--lite.ables.com.my-FFD34D?style=for-the-badge&labelColor=202124"></a>
   <a href="https://drive.google.com/file/d/1l_DrDm_AzrMCWxicWDVGF5IvLc0H9Vvd/view?usp=sharing"><img alt="Demo video" src="https://img.shields.io/badge/Demo-video-EC532F?style=for-the-badge&labelColor=202124"></a>
-  <a href="submission/Enjoyable_Lite_Deck.pdf"><img alt="Pitch deck" src="https://img.shields.io/badge/Pitch-deck-408EDF?style=for-the-badge&labelColor=202124"></a>
+  <a href="submission/ABLEs_Enjoyable-Lite_Deck_AI-Builder-Cup-2026.pdf"><img alt="Pitch deck" src="https://img.shields.io/badge/Pitch-deck-408EDF?style=for-the-badge&labelColor=202124"></a>
 </p>
 
 <p align="center">
