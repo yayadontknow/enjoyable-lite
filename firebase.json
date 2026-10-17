@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "public": "web",
+    "cleanUrls": true,
+    "rewrites": [
+      { "source": "/api/**", "run": { "serviceId": "enjoyable-lite", "region": "asia-southeast1" } }
+    ],
+    "headers": [
+      { "source": "**/*.@(js|css|json)", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+      { "source": "brand/**", "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }] }
+    ]
+  },
+  "firestore": { "rules": "firestore.rules" }
+}

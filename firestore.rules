@@ -1,0 +1,16 @@
+rules_version = '2';
+// Anyone may read the prepared descriptions (they describe public videos). Only the Cloud Run service writes,
+// with its own service account, which these rules do not apply to.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /videos/{key} {
+      allow read: if true;
+      match /cues/{cue} {
+        allow read: if true;
+      }
+    }
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

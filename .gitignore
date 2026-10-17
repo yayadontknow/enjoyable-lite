@@ -1,0 +1,18 @@
+# local Python environment and the voice models (downloaded; see README)
+.venv/
+models/
+__pycache__/
+*.pyc
+
+# build context and runtime files
+scratch/
+.firebase/
+
+# secrets (GEMINI_API_KEY etc.) and cookies
+.env
+.env.*
+*.cookies.txt
+cookies*.txt
+
+# the demo film: over GitHub's 100 MB limit, and it is on Google Drive (see README)
+submission/*.mp4
